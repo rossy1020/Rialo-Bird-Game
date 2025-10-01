@@ -5,6 +5,8 @@ backgroundImg.src = "./images/rialobg.jpg";
 let inputLocked = false;
 
 document.addEventListener("keydown", handleKeyDown);
+document.addEventListener("mousedown", handleMouseDown);
+
 
 let GAME_STATE = {
     MENU: "menu",
